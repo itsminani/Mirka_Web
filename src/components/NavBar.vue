@@ -29,6 +29,7 @@
             <b-dropdown-item aria-role="listitem"
               >English</b-dropdown-item
             >
+            
             <b-dropdown-item aria-role="listitem"
               >French</b-dropdown-item
             >

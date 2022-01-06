@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-max-widescreen">
+  <div>
     <div class="">
       <div>
         <section class="hero is-danger is-fullheight">

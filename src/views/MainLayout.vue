@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <NavBar />
+    <div >
+      <NavBar />
+    </div>
     <MainPage />
     <div class="">
       <transition
@@ -9,7 +11,8 @@
         leave-active-class="animate__animated animate__fadeOut"
       >
         <router-view />
-      </transition>    </div>
+      </transition>
+    </div>
   </div>
 </template>
 <script>
@@ -21,7 +24,7 @@ export default {
   },
   components: {
     NavBar,
-    MainPage
+    MainPage,
   },
 };
 </script>
@@ -33,4 +36,5 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
 </style>

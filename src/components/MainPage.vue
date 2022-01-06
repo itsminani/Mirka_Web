@@ -31,9 +31,9 @@
             <nav class="tabs is-boxed is-fullwidth">
               <div class="container">
                 <ul>
-                  <li :class="active"><a href="#Medical">Medical</a></li>
-                  <li :class="active"><a href="#Property">Property</a></li>
-                  <li :class="active"><a href="#Motor">Motor</a></li>
+                  <li :class="medicalActive"><a href="#Medical">Medical</a></li>
+                  <li :class="propertyActive"><a href="#Property">Property</a></li>
+                  <li :class="motorActive"><a href="#Motor">Motor</a></li>
                 </ul>
               </div>
             </nav>
@@ -53,7 +53,14 @@
 export default {
     data() {
         return {
-            active: ""
+            medicalActive: "is-active",
+            propertyActive: "",
+            motorActive: "",
+        }
+    },
+    methods: {
+        setActive() {
+
         }
     },
 };

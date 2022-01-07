@@ -19,7 +19,7 @@
           <div>
             <a href="#Medical">
               <p
-                class="services"
+                class="HoverServices"
                 style="margin-bottom: 100px; margin-top: 0px; font-size: 30px"
               >
                 <b-icon class="scroll" icon="chevron-double-down"> </b-icon>Our
@@ -47,246 +47,162 @@
         </section>
       </div>
       <div class="mainServices">
-        <div id="Medical"><section class="hero is-white is-fullheight">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-vcentered reverse-columns">
-            <div
-              class="
-                column
-                is-10-mobile
-                is-offset-1-mobile
-                is-10-tablet
-                is-offset-1-tablet
-                is-5-desktop
-                is-offset-1-desktop
-                is-5-widescreen
-                is-offset-1-widescreen
-                is-5-fullhd
-                is-offset-1-fullhd
-              "
-              data-aos="fade-down"
-            >
-              <h4 class="title titled is-1 mb-6">PivoHub</h4>
-              <h2
-                class="
-                  subtitled
-                  subtitle
-                  has-text-grey
-                  is-4
-                  has-text-weight-normal
-                  is-family-sans-serif
-                "
-              >
-                People deserve to discover the story of a human industry that
-                cares about its craft. PivoHub provides powerful and simple
-                software to create a digital ecosystem that connects, organizes,
-                and equips the craft beverage industry. We will be the
-                best-of-breed craft beverage marketplace working with the
-                world’s most notorious artisans.
-              </h2>
-              <div class="buttons">
-                <b-button
-                  class="button is-primary is-rounded"
-                  to="/sell"
-                  @click="showRegister = true"
-                  size="is-large"
-                  >Sell</b-button
-                >
-
-                <router-link to="/shop">
-                  <b-button
-                    class="button isrounded is-outlined is-rounded"
-                    size="is-large"
-                    >Buy</b-button
+        <div id="Medical">
+          <section class="hero is-white is-fullheight">
+            <div class="hero-body">
+              <div class="container">
+                <div class="columns is-vcentered reverse-columns">
+                  <div
+                    class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd"
+                    data-aos="fade-down"
                   >
-                </router-link>
+                    <h4 class="title titled is-1 mb-6">Medical</h4>
+                    <h2
+                      class="subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
+                    >
+                      People deserve to discover the story of a human industry
+                      that cares about its craft. PivoHub provides powerful and
+                      simple software to create a digital ecosystem that
+                      connects, organizes, and equips the craft beverage
+                      industry. We will be the best-of-breed craft beverage
+                      marketplace working with the world’s most notorious
+                      artisans.
+                    </h2>
+                    <div class="buttons">
+                      <b-button
+                        class="button is-primary is-rounded"
+                        to="/sell"
+                        @click="showRegister = true"
+                        size="is-large"
+                        >Sell</b-button
+                      >
+
+                      <router-link to="/shop">
+                        <b-button
+                          class="button isrounded is-outlined is-rounded"
+                          size="is-large"
+                          >Buy</b-button
+                        >
+                      </router-link>
+                    </div>
+                  </div>
+                  <div
+                    data-aos="fade-right"
+                    class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-4-desktop is-offset-1-desktop is-4-widescreen is-offset-1-widescreen is-4-fullhd is-offset-1-fullhd"
+                  >
+                    <figure>
+                      <img src="@/assets/img/undraw_refreshing.svg" />
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              data-aos="fade-right"
-              class="
-                column
-                is-10-mobile
-                is-offset-1-mobile
-                is-10-tablet
-                is-offset-1-tablet
-                is-4-desktop
-                is-offset-1-desktop
-                is-4-widescreen
-                is-offset-1-widescreen
-                is-4-fullhd
-                is-offset-1-fullhd
-              "
-            >
-              <figure>
-                <img src="@/assets/img/undraw_refreshing.svg" />
-              </figure>
-            </div>
-          </div>
+          </section>
         </div>
-      </div>
-    </section></div>
-        <div  id="Property"><section class="hero is-white is-fullheight">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-vcentered reverse-columns">
-            <div
-              class="
-                column
-                is-10-mobile
-                is-offset-1-mobile
-                is-10-tablet
-                is-offset-1-tablet
-                is-5-desktop
-                is-offset-1-desktop
-                is-5-widescreen
-                is-offset-1-widescreen
-                is-5-fullhd
-                is-offset-1-fullhd
-              "
-              data-aos="fade-down"
-            >
-              <h4 class="title titled is-1 mb-6">PivoHub</h4>
-              <h2
-                class="
-                  subtitled
-                  subtitle
-                  has-text-grey
-                  is-4
-                  has-text-weight-normal
-                  is-family-sans-serif
-                "
-              >
-                People deserve to discover the story of a human industry that
-                cares about its craft. PivoHub provides powerful and simple
-                software to create a digital ecosystem that connects, organizes,
-                and equips the craft beverage industry. We will be the
-                best-of-breed craft beverage marketplace working with the
-                world’s most notorious artisans.
-              </h2>
-              <div class="buttons">
-                <b-button
-                  class="button is-primary is-rounded"
-                  to="/sell"
-                  @click="showRegister = true"
-                  size="is-large"
-                  >Sell</b-button
-                >
-
-                <router-link to="/shop">
-                  <b-button
-                    class="button isrounded is-outlined is-rounded"
-                    size="is-large"
-                    >Buy</b-button
+        <div id="Property">
+          <section class="hero is-white is-fullheight">
+            <div class="hero-body">
+              <div class="container">
+                <div class="columns is-vcentered reverse-columns">
+                  <div
+                    class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd"
+                    data-aos="fade-down"
                   >
-                </router-link>
+                    <h4 class="title titled is-1 mb-6">Property</h4>
+                    <h2
+                      class="subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
+                    >
+                      People deserve to discover the story of a human industry
+                      that cares about its craft. PivoHub provides powerful and
+                      simple software to create a digital ecosystem that
+                      connects, organizes, and equips the craft beverage
+                      industry. We will be the best-of-breed craft beverage
+                      marketplace working with the world’s most notorious
+                      artisans.
+                    </h2>
+                    <div class="buttons">
+                      <b-button
+                        class="button is-primary is-rounded"
+                        to="/sell"
+                        @click="showRegister = true"
+                        size="is-large"
+                        >Sell</b-button
+                      >
+
+                      <router-link to="/shop">
+                        <b-button
+                          class="button isrounded is-outlined is-rounded"
+                          size="is-large"
+                          >Buy</b-button
+                        >
+                      </router-link>
+                    </div>
+                  </div>
+                  <div
+                    data-aos="fade-right"
+                    class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-4-desktop is-offset-1-desktop is-4-widescreen is-offset-1-widescreen is-4-fullhd is-offset-1-fullhd"
+                  >
+                    <figure>
+                      <img src="@/assets/img/undraw_refreshing.svg" />
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              data-aos="fade-right"
-              class="
-                column
-                is-10-mobile
-                is-offset-1-mobile
-                is-10-tablet
-                is-offset-1-tablet
-                is-4-desktop
-                is-offset-1-desktop
-                is-4-widescreen
-                is-offset-1-widescreen
-                is-4-fullhd
-                is-offset-1-fullhd
-              "
-            >
-              <figure>
-                <img src="@/assets/img/undraw_refreshing.svg" />
-              </figure>
-            </div>
-          </div>
+          </section>
         </div>
-      </div>
-    </section></div>
-        <div  id="Motor"><section class="hero is-white is-fullheight">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns is-vcentered reverse-columns">
-            <div
-              class="
-                column
-                is-10-mobile
-                is-offset-1-mobile
-                is-10-tablet
-                is-offset-1-tablet
-                is-5-desktop
-                is-offset-1-desktop
-                is-5-widescreen
-                is-offset-1-widescreen
-                is-5-fullhd
-                is-offset-1-fullhd
-              "
-              data-aos="fade-down"
-            >
-              <h4 class="title titled is-1 mb-6">PivoHub</h4>
-              <h2
-                class="
-                  subtitled
-                  subtitle
-                  has-text-grey
-                  is-4
-                  has-text-weight-normal
-                  is-family-sans-serif
-                "
-              >
-                People deserve to discover the story of a human industry that
-                cares about its craft. PivoHub provides powerful and simple
-                software to create a digital ecosystem that connects, organizes,
-                and equips the craft beverage industry. We will be the
-                best-of-breed craft beverage marketplace working with the
-                world’s most notorious artisans.
-              </h2>
-              <div class="buttons">
-                <b-button
-                  class="button is-primary is-rounded"
-                  to="/sell"
-                  @click="showRegister = true"
-                  size="is-large"
-                  >Sell</b-button
-                >
-
-                <router-link to="/shop">
-                  <b-button
-                    class="button isrounded is-outlined is-rounded"
-                    size="is-large"
-                    >Buy</b-button
+        <div id="Motor">
+          <section class="hero is-white is-fullheight">
+            <div class="hero-body">
+              <div class="container">
+                <div class="columns is-vcentered reverse-columns">
+                  <div
+                    class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd"
+                    data-aos="fade-down"
                   >
-                </router-link>
+                    <h4 class="title titled is-1 mb-6">Motor</h4>
+                    <h2
+                      class="subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
+                    >
+                      People deserve to discover the story of a human industry
+                      that cares about its craft. PivoHub provides powerful and
+                      simple software to create a digital ecosystem that
+                      connects, organizes, and equips the craft beverage
+                      industry. We will be the best-of-breed craft beverage
+                      marketplace working with the world’s most notorious
+                      artisans.
+                    </h2>
+                    <div class="buttons">
+                      <b-button
+                        class="button is-primary is-rounded"
+                        to="/sell"
+                        @click="showRegister = true"
+                        size="is-large"
+                        >Sell</b-button
+                      >
+
+                      <router-link to="/shop">
+                        <b-button
+                          class="button isrounded is-outlined is-rounded"
+                          size="is-large"
+                          >Buy</b-button
+                        >
+                      </router-link>
+                    </div>
+                  </div>
+                  <div
+                    data-aos="fade-right"
+                    class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-4-desktop is-offset-1-desktop is-4-widescreen is-offset-1-widescreen is-4-fullhd is-offset-1-fullhd"
+                  >
+                    <figure>
+                      <img src="@/assets/img/undraw_refreshing.svg" />
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
-            <div
-              data-aos="fade-right"
-              class="
-                column
-                is-10-mobile
-                is-offset-1-mobile
-                is-10-tablet
-                is-offset-1-tablet
-                is-4-desktop
-                is-offset-1-desktop
-                is-4-widescreen
-                is-offset-1-widescreen
-                is-4-fullhd
-                is-offset-1-fullhd
-              "
-            >
-              <figure>
-                <img src="@/assets/img/undraw_refreshing.svg" />
-              </figure>
-            </div>
-          </div>
+          </section>
         </div>
-      </div>
-    </section></div>
       </div>
     </div>
   </div>
@@ -308,11 +224,11 @@ export default {
         this.motorActive = "is-active";
         this.propertyActive = "";
         this.medicalActive = "";
-      } else if ((name == "Property")) {
+      } else if (name == "Property") {
         this.propertyActive = "is-active";
         this.motorActive = "";
         this.medicalActive = "";
-      } else if ((name == "Medical")) {
+      } else if (name == "Medical") {
         this.medicalActive = "is-active";
         this.motorActive = "";
         this.propertyActive = "";
@@ -341,7 +257,7 @@ html {
   width: 70px;
 }
 
-.services {
+.HoverServices {
   animation-name: updown;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -350,7 +266,7 @@ html {
   cursor: pointer;
   transition: ease-in-out 2.3s;
 }
-.services:hover {
+.HoverServices:hover {
 }
 
 @keyframes updown {
@@ -362,4 +278,63 @@ html {
     transform: scale(1.2);
   }
 }
+
+.main-content .section-color.services {
+  padding: 100px;
+  background-color: #43485c;
+  color: white;
+}
+
+.main-content .section-color.services .title,
+.main-content .section-color.services .subtitle {
+  color: white;
+}
+
+.main-content .section-color.services i {
+  font-size: 3rem;
+  padding: 20px;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
+.has-vertically-aligned-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', Lato, Tahoma, sans-serif;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.mainhero {
+  background-image: url(https://picsum.photos/id/381/1920/1080);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero .title {
+  font-family: 'Kaushan Script', sans-serif;
+  transform: rotate(-5deg);
+  font-size: 5rem;
+  color: whitesmoke;
+}
+
+.hero .subtitle {
+  padding: 5px;
+  color: whitesmoke;
+}
+
+
+
+
 </style>

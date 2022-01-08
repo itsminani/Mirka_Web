@@ -3,7 +3,7 @@
     <div >
       <NavBar />
     </div>
-    <MainPage />
+    
     <div class="">
       <transition
         mode="out-in"
@@ -17,14 +17,12 @@
 </template>
 <script>
 import NavBar from "../components/NavBar.vue";
-import MainPage from "../components/MainPage.vue";
 export default {
   data() {
     return {};
   },
   components: {
     NavBar,
-    MainPage,
   },
 };
 </script>

@@ -46,10 +46,100 @@
           </div>
         </section>
       </div>
-      <div class="services">
-
-
-        
+      <div class="services" style="margin-top:30px">
+        <section class=" hero is-fullheight">
+          <div class="container">
+          <div class="columns features">
+            <div class="column is-4">
+              <div class="card is-shady">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="https://source.unsplash.com/RWnpyGtY1aU"
+                      alt="Placeholder image"
+                      class="modal-button"
+                      data-target="modal-image2"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <h4>Click on image above</h4>
+                    <p>
+                      Purus semper eget duis at tellus at urna condimentum
+                      mattis. Non blandit massa enim nec. Integer enim neque
+                      volutpat ac tincidunt vitae semper quis. Accumsan tortor
+                      posuere ac ut consequat semper viverra nam.
+                    </p>
+                    <span
+                      class="button is-link modal-button"
+                      data-target="modal-image2"
+                      >Image modal</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card is-shady">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="https://source.unsplash.com/6Ticnhs1AG0"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <h4>Tempor orci dapibus faber in.</h4>
+                    <p>
+                      Ut venenatis tellus in metus vulputate. Amet consectetur
+                      adipiscing elit pellentesque. Sed arcu non odio euismod
+                      lacinia at quis risus. Faucibus turpis in eu mi bibendum
+                      neque egestas cmonsu songue. Phasellus vestibulum lorem
+                      sed risus.
+                    </p>
+                    <span
+                      class="button is-link modal-button"
+                      data-target="modal-card"
+                      >Modal Card</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4 modal-button" data-target="modal-image">
+              <div class="card is-shady">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <h4>Click anywhere on card</h4>
+                    <p>
+                      Imperdiet dui accumsan sit amet nulla facilisi morbi.
+                      Fusce ut placerat orci nulla pellentesque dignissim enim.
+                      Libero id faucibus nisl tincidunt eget nullam. Commodo
+                      viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <span
+                      class="button is-link modal-button"
+                      data-target="modal-image"
+                      >Image modal</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
       </div>
       <div class="mainServices">
         <div id="Medical">
@@ -311,25 +401,24 @@ html {
 }
 
 html {
-  font-family: 'Poppins', Lato, Tahoma, sans-serif;
+  font-family: "Poppins", Lato, Tahoma, sans-serif;
   width: 100%;
   min-height: 100%;
 }
 
-
-
 .mainhero {
   background-image: url(https://picsum.photos/id/381/1920/1080);
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)),
+    rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero .title {
-  font-family: 'Kaushan Script', sans-serif;
+  font-family: "Kaushan Script", sans-serif;
   transform: rotate(-5deg);
   font-size: 5rem;
   color: whitesmoke;
@@ -339,8 +428,12 @@ html {
   padding: 5px;
   color: whitesmoke;
 }
-
-
-
-
+.card{
+  transition: transform .2s;
+}
+.card:hover{
+  transform: scale(1.02);
+  box-shadow: 0.2px 0.5px 11px rgb(192, 192, 192);
+}
 </style>
+

@@ -12,6 +12,7 @@ import MainPage from "../components/MainPage.vue";
 import ContactForm from '@/components/ContactForm.vue'
 
 
+
 export default {
   name: 'Home',
   components: {

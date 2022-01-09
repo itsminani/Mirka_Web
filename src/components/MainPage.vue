@@ -64,8 +64,9 @@
                 </div>
                 <div class="card-content">
                   <div class="content">
-                    <h4>Click on image above</h4>
+                    <h4>Medical Insurance</h4>
                     <p>
+                      
                       Purus semper eget duis at tellus at urna condimentum
                       mattis. Non blandit massa enim nec. Integer enim neque
                       volutpat ac tincidunt vitae semper quis. Accumsan tortor
@@ -92,7 +93,7 @@
                 </div>
                 <div class="card-content">
                   <div class="content">
-                    <h4>Tempor orci dapibus faber in.</h4>
+                    <h4>Property Insurance</h4>
                     <p>
                       Ut venenatis tellus in metus vulputate. Amet consectetur
                       adipiscing elit pellentesque. Sed arcu non odio euismod
@@ -121,7 +122,7 @@
                 </div>
                 <div class="card-content">
                   <div class="content">
-                    <h4>Click anywhere on card</h4>
+                    <h4>Motor Insurance</h4>
                     <p>
                       Imperdiet dui accumsan sit amet nulla facilisi morbi.
                       Fusce ut placerat orci nulla pellentesque dignissim enim.

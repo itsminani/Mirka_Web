@@ -112,7 +112,7 @@
                 </div>
               </div>
 
-              
+
               <div class="column is-4 modal-button" data-target="modal-image">
                 <div class="card is-shady">
                   <div class="card-image">
@@ -145,6 +145,7 @@
           </div>
         </section>
       </div>
+      
       <div class="mainServices">
         <div id="Medical">
           <section class="hero is-white is-fullheight">

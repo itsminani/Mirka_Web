@@ -111,6 +111,7 @@
                   </div>
                 </div>
               </div>
+
               
               <div class="column is-4 modal-button" data-target="modal-image">
                 <div class="card is-shady">

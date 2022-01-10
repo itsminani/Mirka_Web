@@ -81,7 +81,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="column is-4">
                 <div class="card is-shady">
                   <div class="card-image">
@@ -111,6 +111,7 @@
                   </div>
                 </div>
               </div>
+              
               <div class="column is-4 modal-button" data-target="modal-image">
                 <div class="card is-shady">
                   <div class="card-image">

@@ -252,7 +252,7 @@
             </div>
           </section>
         </div>
-        
+
         <div id="Motor">
           <section class="hero is-white is-fullheight">
             <div class="hero-body">
@@ -296,6 +296,7 @@
                     data-aos="fade-right"
                     class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-4-desktop is-offset-1-desktop is-4-widescreen is-offset-1-widescreen is-4-fullhd is-offset-1-fullhd"
                   >
+                  
                     <figure>
                       <img src="@/assets/img/undraw_refreshing.svg" />
                     </figure>

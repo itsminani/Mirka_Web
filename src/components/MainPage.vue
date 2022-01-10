@@ -2,7 +2,6 @@
   <div>
     <div class="">
       <div>
-
         <section class="hero mainhero is-success is-fullheight has-background">
           <!-- <img
             class="hero-background is-transparent"
@@ -11,13 +10,11 @@
           /> -->
           <div class="hero-body container has-text-centered">
             <div>
-
               <h1 class="title" style="font-size: 60px; margin-bottom: 10px">
                 Leave the insurance to us
               </h1>
               <h2 class="subtitle">Mirka Insurace</h2>
             </div>
-            
           </div>
           <div>
             <a href="#Medical">

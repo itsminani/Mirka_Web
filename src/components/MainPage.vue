@@ -282,6 +282,7 @@
                         >Sell</b-button
                       >
 
+
                       <router-link to="/shop">
                         <b-button
                           class="button isrounded is-outlined is-rounded"

@@ -81,6 +81,7 @@
                   </div>
                 </div>
               </div>
+              
               <div class="column is-4">
                 <div class="card is-shady">
                   <div class="card-image">

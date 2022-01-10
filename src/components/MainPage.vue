@@ -145,7 +145,7 @@
           </div>
         </section>
       </div>
-      
+
       <div class="mainServices">
         <div id="Medical">
           <section class="hero is-white is-fullheight">
@@ -199,6 +199,7 @@
             </div>
           </section>
         </div>
+        
         <div id="Property">
           <section class="hero is-white is-fullheight">
             <div class="hero-body">

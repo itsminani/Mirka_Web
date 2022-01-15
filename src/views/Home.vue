@@ -5,11 +5,8 @@
   </div>
 </template>
 
-
 <script>
-
 // @ is an alias to /src
-
 
 import MainPage from "../components/MainPage.vue";
 import ContactForm from '@/components/ContactForm.vue'

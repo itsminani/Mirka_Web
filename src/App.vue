@@ -1,11 +1,8 @@
 <template>
   <div>
-    
-        <MainLayout />
-      </div>
-    </div>
+      <MainLayout />
   </div>
-</template>
+  </template>
 
 <script>
 AOS.init({

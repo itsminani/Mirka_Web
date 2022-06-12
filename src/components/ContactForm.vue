@@ -1,49 +1,91 @@
+<!-- ! Create small contact card for the main contacts -->
 <template>
-  <div class="box is-grey">
-    <section>
-      <b-field horizontal label="Subject" message="Please enter a subject">
-        <b-input name="subject" v-model="subject" expanded></b-input>
-      </b-field>
+  <div class="box">
+    <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="columns is-8 is-variable">
+            <!-- Address details -->
+            <div class="column is-two-thirds has-text-left">
+              <h1 class="title is-1">Contact Us</h1>
+              <p class="is-size-4">
+                <b class="title-styled is-size-4">
+                  OUR LOCATION AND CONTACTS: 
+                </b>
+                <p class="is-size-2"></p>
+                <br> Town Center Building , 4th floor,
+                (Near Kigali City Tower) P.O. Box 221 Kigali, Rwanda <br>
+                Website:www.mirka.rw Email: <a href="mailto:info@mirka.rw"> info@mirka.rw </a><br> 
+                <br>
 
-      <b-field horizontal label="From">
-        <b-input
-          name="name"
-          placeholder="Name"
-          v-model="name"
-          expanded
-        ></b-input>
-        <b-input
-          name="email"
-          type="email"
-          v-model="email"
-          placeholder="thisperson@HelpFriend.com"
-          expanded
-        ></b-input>
-      </b-field>
+                <b class="title-styled is-size-4">
+                  OUR CONTACTS: 
+                </b>
+                <br>
+                <br>
 
-      <!-- <b-field horizontal label="Topic">
-      <b-select placeholder="Select a topic">
-        <option value="1">Bulma</option>
-        <option value="2">Vue.js</option>
-        <option value="3">Buefy</option>
-      </b-select>
-      \
-    </b-field> -->
-
-      <b-field horizontal label="Message">
-        <b-input v-model="message" type="textarea"></b-input>
-      </b-field>
-
-
-
-      <b-field horizontal
-        ><!-- Label left empty for spacing -->
-        <p class="control">
-          <b-button @click="submit()" label="Send message" type="is-primary" />
-        </p>
-      </b-field>
-
-
+                Gregoire MINANI
+                Tel (and WhatsApp): +250 788 308 521 
+                email: gminani@mirka.rw
+                Antoine Uwamungu 
+                Tel (and WhatsApp): 0788306977 
+                email: antoineuwamungu@gmail.com 
+                Aline Murangira
+                Tel (and
+                WhatsApp):+250 788 405 056; email: amurangira@mirka.rw
+                Antoinette Mukankundiye
+                Tel (and WhatsApp): +250 788 735 370
+              </p>
+              <div class="social-media">
+                <a
+                  href="mailto:info@mirka.rw"
+                  class="button is-light is-large m-2"
+                  ><i aria-hidden="true">📧</i
+                ></a>
+                <a
+                  href="tel:07889308521"
+                  class="button is-light is-large m-2"
+                  ><i aria-hidden="true">📞</i
+                ></a>
+                <a
+                  href="#"
+                  class="button is-light is-large m-2"
+                  ><i aria-hidden="true">🌐</i
+                ></a>
+              </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="column is-one-third has-text-left">
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                  <input class="input is-medium" type="text" />
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input is-medium" type="text" />
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea is-medium"></textarea>
+                </div>
+              </div>
+              <div class="control">
+                <button
+                  type="submit"
+                  class="button is-link is-fullwidth has-text-weight-medium is-medium"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>

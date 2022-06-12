@@ -1,3 +1,6 @@
+<!-- ! Separate the code into Components -->
+<!-- ! Add global styles -->
+<!-- ! use sass where possible -->
 <template>
   <div>
     <div class="">
@@ -8,11 +11,15 @@
             src="https://www.fillmurray.com/1920/1080"
             alt=""
           /> -->
-          
+
           <div class="hero-body container has-text-centered">
-            <div>
-              <h1 class="title" style="font-size: 60px; margin-bottom: 10px">
-                Leave the insurance to us
+            <div class="b" style="border: solid, white, 1px">
+              <h1
+                class="title-styled"
+                style="margin: 3rem auto; font-size: 3rem; margin-bottom: 10px"
+              >
+                Make the right decision and acquire our insurance expertise on
+                your side with no extra-charges
               </h1>
               <h2 class="subtitle">Mirka Insurace</h2>
             </div>
@@ -47,7 +54,8 @@
           </div>
         </section>
       </div>
-      
+
+      <p class="title-style titled">Hey</p>
       <div class="services" style="margin-top: 30px">
         <section class="hero is-fullheight">
           <div class="container">
@@ -67,17 +75,23 @@
 
                   <div class="card-content">
                     <div class="content">
-                      <h4>Medical Insurance</h4>
+                      <h4>OUR OFFER</h4>
                       <p>
-                        Purus semper eget duis at tellus at urna condimentum
-                        mattis. Non blandit massa enim nec. Integer enim neque
-                        volutpat ac tincidunt vitae semper quis. Accumsan tortor
-                        posuere ac ut consequat semper viverra nam.
+                        We manage and place insurance risk, by providing
+                        appropriate risk management advice and insurance
+                        solutions with our technical insurance experts. We
+                        additionally
+                        <b
+                          >offer access to international risk experts for
+                          particular risks outside the regional purview.</b
+                        >
+                        Our team look to deliver exceptional service and value
+                        for money at all times.
                       </p>
                       <span
                         class="button is-link modal-button"
                         data-target="modal-image2"
-                        >Image modal</span
+                        >Learn More</span
                       >
                     </div>
                   </div>
@@ -96,18 +110,20 @@
                   </div>
                   <div class="card-content">
                     <div class="content">
-                      <h4>Property Insurance</h4>
+                      <h4>CLAIMS FOCUS</h4>
                       <p>
-                        Ut venenatis tellus in metus vulputate. Amet consectetur
-                        adipiscing elit pellentesque. Sed arcu non odio euismod
-                        lacinia at quis risus. Faucibus turpis in eu mi bibendum
-                        neque egestas cmonsu songue. Phasellus vestibulum lorem
-                        sed risus.
+                        The unfortunate point at which you have to make a claim
+                        on your insurance policy
+                        <b>is some time also called the moment of truth.</b> It
+                        is the moment when you need your insurer to promptly
+                        deliver the agreed benefits, to minimize the loss and
+                        disruption to your business. Our team has the required
+                        experience to assist you whenever that moment occurs.
                       </p>
                       <span
                         class="button is-link modal-button"
                         data-target="modal-card"
-                        >Modal Card</span
+                        >More Details</span
                       >
                     </div>
                   </div>
@@ -116,27 +132,24 @@
 
               <div class="column is-4 modal-button" data-target="modal-image">
                 <div class="card is-shady">
-                  <div class="card-image">
-                    <figure class="image is-4by3">
-                      <img
-                        src="https://res.cloudinary.com/ameo/image/upload/v1568711475/pexels-photo-1302883_fjje0f.jpg"
-                        alt="Placeholder image"
-                      />
-                    </figure>
-                  </div>
+                  <div class="separator"></div>
                   <div class="card-content">
                     <div class="content">
-                      <h4>Motor Insurance</h4>
+                      <h4>WHY USE AN INSURANCE BROKER?</h4>
                       <p>
-                        Imperdiet dui accumsan sit amet nulla facilisi morbi.
-                        Fusce ut placerat orci nulla pellentesque dignissim
-                        enim. Libero id faucibus nisl tincidunt eget nullam.
-                        Commodo viverra maecenas accumsan lacus vel facilisis.
+                        As an Insurance broker,
+                        <b
+                          >we represent and protect your interests by providing
+                          impartial and objective advice.</b
+                        >
+                        We identify and analyze risks, design a customized
+                        insurance program for each client and negotiate the best
+                        insurance contracts.
                       </p>
                       <span
                         class="button is-link modal-button"
                         data-target="modal-image"
-                        >Image modal</span
+                        >More details</span
                       >
                     </div>
                   </div>
@@ -157,7 +170,7 @@
                     class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd"
                     data-aos="fade-down"
                   >
-                    <h4 class="title titled is-1 mb-6">Medical</h4>
+                    <h4 class="title-styled is-1 mb-6">Medical</h4>
                     <h2
                       class="subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
                     >
@@ -209,7 +222,7 @@
                     class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd"
                     data-aos="fade-down"
                   >
-                    <h4 class="title titled is-1 mb-6">Property</h4>
+                    <h4 class="title-styled titled is-1 mb-6">Property</h4>
                     <h2
                       class="subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
                     >
@@ -261,7 +274,7 @@
                     class="column is-10-mobile is-offset-1-mobile is-10-tablet is-offset-1-tablet is-5-desktop is-offset-1-desktop is-5-widescreen is-offset-1-widescreen is-5-fullhd is-offset-1-fullhd"
                     data-aos="fade-down"
                   >
-                    <h4 class="title titled is-1 mb-6">Motor</h4>
+                    <h4 class="title-styled titled is-1 mb-6">Motor</h4>
                     <h2
                       class="subtitled subtitle has-text-grey is-4 has-text-weight-normal is-family-sans-serif"
                     >
@@ -281,7 +294,6 @@
                         size="is-large"
                         >Sell</b-button
                       >
-
 
                       <router-link to="/shop">
                         <b-button
@@ -340,6 +352,12 @@ export default {
 };
 </script>
 
+<style lang="scss">
+div {
+  background-color: var(--bly);
+}
+</style>
+
 <style>
 html {
   scroll-behavior: smooth;
@@ -396,6 +414,14 @@ html {
   font-size: 3rem;
   padding: 20px;
 }
+
+/* process */
+
+.title::before,
+.title::after {
+  content: "~";
+}
+
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 .has-vertically-aligned-content {
   display: flex;
@@ -424,11 +450,12 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-.hero .title {
+.hero .title-styled {
   font-family: "Kaushan Script", sans-serif;
   transform: rotate(-5deg);
   font-size: 5rem;
-  color: whitesmoke;
+  margin: auto;
+  /* color: whitesmoke; */
 }
 
 .hero .subtitle {

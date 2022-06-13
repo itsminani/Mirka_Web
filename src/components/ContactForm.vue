@@ -9,49 +9,36 @@
             <div class="column is-two-thirds has-text-left">
               <h1 class="title is-1">Contact Us</h1>
               <p class="is-size-4">
-                <b class="title-styled is-size-4">
-                  OUR LOCATION AND CONTACTS: 
-                </b>
-                <p class="is-size-2"></p>
-                <br> Town Center Building , 4th floor,
-                (Near Kigali City Tower) P.O. Box 221 Kigali, Rwanda <br>
-                Website:www.mirka.rw Email: <a href="mailto:info@mirka.rw"> info@mirka.rw </a><br> 
-                <br>
-
-                <b class="title-styled is-size-4">
-                  OUR CONTACTS: 
-                </b>
-                <br>
-                <br>
-
-                Gregoire MINANI
-                Tel (and WhatsApp): +250 788 308 521 
-                email: gminani@mirka.rw
-                Antoine Uwamungu 
-                Tel (and WhatsApp): 0788306977 
-                email: antoineuwamungu@gmail.com 
-                Aline Murangira
-                Tel (and
+                <b class="is-size-4"> OUR LOCATION AND CONTACTS: </b>
+                <br />
+                Town Center Building , 4th floor, (Near Kigali City Tower) P.O.
+                Box 221 Kigali, Rwanda <br />
+                Website:www.mirka.rw Email:
+                <a href="mailto:info@mirka.rw"> info@mirka.rw </a><br />
+                <br />
+              </p>
+              <b class="title-styled is-size-4"> OUR CONTACTS: </b>
+              <br />
+              <br />
+              <p>
+                Gregoire MINANI Tel (and WhatsApp): +250 788 308 521 email:
+                gminani@mirka.rw Antoine Uwamungu Tel (and WhatsApp): 0788306977
+                email: antoineuwamungu@gmail.com Aline Murangira Tel (and
                 WhatsApp):+250 788 405 056; email: amurangira@mirka.rw
-                Antoinette Mukankundiye
-                Tel (and WhatsApp): +250 788 735 370
+                Antoinette Mukankundiye Tel (and WhatsApp): +250 788 735 370
               </p>
               <div class="social-media">
                 <a
                   href="mailto:info@mirka.rw"
                   class="button is-light is-large m-2"
-                  ><i aria-hidden="true">📧</i
-                ></a>
-                <a
-                  href="tel:07889308521"
-                  class="button is-light is-large m-2"
-                  ><i aria-hidden="true">📞</i
-                ></a>
-                <a
-                  href="#"
-                  class="button is-light is-large m-2"
-                  ><i aria-hidden="true">🌐</i
-                ></a>
+                  ><i aria-hidden="true">📧</i></a
+                >
+                <a href="tel:07889308521" class="button is-light is-large m-2"
+                  ><i aria-hidden="true">📞</i></a
+                >
+                <a href="#" class="button is-light is-large m-2"
+                  ><i aria-hidden="true">🌐</i></a
+                >
               </div>
             </div>
             <!-- Contact Form -->

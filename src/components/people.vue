@@ -26,5 +26,5 @@ data() {
             expertise: "an insurance professional"}
         ]
     }
-},
+}
 </script>

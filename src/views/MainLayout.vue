@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div >
+    <div>
       <NavBar />
     </div>
-    
+
     <div class="">
       <transition
         mode="out-in"
@@ -15,6 +15,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import NavBar from "../components/NavBar.vue";
 export default {
@@ -34,5 +35,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
 </style>

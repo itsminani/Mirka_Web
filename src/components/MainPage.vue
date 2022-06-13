@@ -24,7 +24,7 @@
                 class="HoverServices"
                 style="margin-bottom: 100px; margin-top: 0px; font-size: 30px"
               >
-                <b-icon class="scroll" icon="chevron-double-down"> </b-icon>Our
+                <b-icon icon="chevron-double-down"> </b-icon>Our
                 Services
               </p>
             </a>
@@ -91,21 +91,29 @@ div {
 <style>
 html {
   scroll-behavior: smooth;
+  font-family: "Poppins", Lato, Tahoma, sans-serif;
+  width: 100%;
+  min-height: 100%;
 }
+/* Hero landing page */
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
+.has-vertically-aligned-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .mainhero {
-  background: linear-gradient(
-      rgba(132, 231, 248, 0.45),
-      rgba(5, 115, 158, 0.45),
-      rgba(141, 206, 231, 0.45)
-    ),
-    url("https://thumbs.dreamstime.com/b/young-black-family-embracing-outdoors-smiling-camera-young-black-family-embracing-outdoors-smiling-camera-119401418.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(https://picsum.photos/id/381/1920/1080);
+  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)),
+    rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Poppins", sans-serif;
 }
-.scroll {
-  width: 70px;
-}
+
 
 .HoverServices {
   animation-name: updown;
@@ -151,32 +159,8 @@ html {
   content: "~";
 }
 
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
-.has-vertically-aligned-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 * {
   box-sizing: border-box;
-}
-
-html {
-  font-family: "Poppins", Lato, Tahoma, sans-serif;
-  width: 100%;
-  min-height: 100%;
-}
-
-.mainhero {
-  background-image: url(https://picsum.photos/id/381/1920/1080);
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)),
-    rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: white;
-  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: "Poppins", sans-serif;
 }
 
 .hero .title-styled {

@@ -38,6 +38,8 @@
     </template> 
   </b-navbar>
 </template>
+
+
 <script>
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {

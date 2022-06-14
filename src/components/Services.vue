@@ -5,7 +5,7 @@
         <div class="columns features">
           <div class="column is-4">
             <div class="card is-shady">
-              <div class="card-image">
+              <!-- <div class="card-image">
                 <figure class="image is-4by3">
                   <img
                     src="https://source.unsplash.com/RWnpyGtY1aU"
@@ -14,7 +14,7 @@
                     data-target="modal-image2"
                   />
                 </figure>
-              </div>
+              </div> -->
 
               <div class="card-content">
                 <div class="content">
@@ -42,14 +42,14 @@
 
           <div class="column is-4">
             <div class="card is-shady">
-              <div class="card-image">
+              <!-- <div class="card-image">
                 <figure class="image is-4by3">
                   <img
                     src="https://source.unsplash.com/6Ticnhs1AG0"
                     alt="Placeholder image"
                   />
                 </figure>
-              </div>
+              </div> -->
               <div class="card-content">
                 <div class="content">
                   <h4>CLAIMS FOCUS</h4>

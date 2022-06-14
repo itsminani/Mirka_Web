@@ -17,7 +17,7 @@
                 <a href="mailto:info@mirka.rw"> info@mirka.rw </a><br />
                 <br />
               </p>
-              <b class="title-styled is-size-4"> OUR CONTACTS: </b>
+              <b class="is-size-4"> OUR CONTACTS: </b>
               <br />
               <br />
               <p>

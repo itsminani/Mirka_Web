@@ -22,3 +22,15 @@ export default {
   },
 };
 </script>
+
+
+<style>
+:root{
+  --primary : red;
+}
+
+/* Helper Styles */
+.is-primary{
+  background-color: var(--primary);
+}
+</style>
